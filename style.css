@@ -81,6 +81,7 @@ a:hover {
   letter-spacing: -0.025em;
   vertical-align: 0.1em;
   text-transform: capitalize;
+  font-variant: none;
   color: #003666;
 }
 
