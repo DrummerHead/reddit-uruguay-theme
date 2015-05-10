@@ -1089,6 +1089,7 @@ body .commentarea .sitetable .comment {
 .footer-parent {
   padding: 30px 0 43px;
   color: #999;
+  background-image: none;
 }
 
 .footer-parent a,.bottommenu .updated {
