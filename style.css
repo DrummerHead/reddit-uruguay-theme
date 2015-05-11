@@ -106,7 +106,7 @@ body #header-bottom-left .tabmenu li a {
   font-size: 11px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #CCC;
+  color: #a1ceff;
 }
 
 body #header-bottom-left .tabmenu li a:hover {
@@ -145,6 +145,15 @@ body #header-bottom-left .tabmenu li.selected a {
   padding: 1px 3px;
 }
 
+.user {
+  color: #a1ceff;
+}
+
+#modmail {
+  width: 1.5em;
+  text-indent: 20em;
+}
+
 #header-bottom-right {
   width: 100%;
   text-align: right;
@@ -162,7 +171,7 @@ body #header-bottom-left .tabmenu li.selected a {
 }
 
 #header-bottom-right a {
-  color: #CCC;
+  color: #a1ceff;
 }
 
 #header-bottom-right a:hover {
@@ -447,10 +456,14 @@ hr {
 }
 
 .side>.spacer:last-of-type {
-  padding: 5px 0 10px;
-  background: #FFF;
-  border: 1px solid #DDD;
-  border-top: none;
+  padding: 5px 0 22.7em;
+  margin: 2.7em 0 0;
+  border-style: none;
+  background-image: url(%%uy-flag%%);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: contain;
+  background-color: #f0f1fb;
 }
 
 .sidebox.create {
